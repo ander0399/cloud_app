@@ -3,7 +3,7 @@ import 'package:cloud_app/Gym/ui/screens/search_exercise.dart';
 import 'package:cloud_app/User/bloc/bloc_user.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:cloud_app/User/ui/screens/profile_gym.dart';
+import 'package:cloud_app/User/ui/screens/ProfileGym.dart';
 import 'package:generic_bloc_provider/generic_bloc_provider.dart';
 
 class VitalfitApp extends StatelessWidget {
@@ -17,19 +17,19 @@ class VitalfitApp extends StatelessWidget {
             items: [
               BottomNavigationBarItem(
                   icon: Icon(Icons.home, color: Colors.amber),
-                  title: Text("")
+                  label: ("")
               ),
               BottomNavigationBarItem(
                   icon: Icon(Icons.search, color: Colors.amber),
-                  title: Text("")
+                  label: ("")
               ),
               BottomNavigationBarItem(
                   icon:Icon(Icons.shopping_bag_outlined, color: Colors.amber),
-                  title: Text("")
+                  label: ("")
               ),
               BottomNavigationBarItem(
                   icon: Icon(Icons.person, color: Colors.amber),
-                  title: Text("")
+                  label: ("")
               ),
             ]
         ),

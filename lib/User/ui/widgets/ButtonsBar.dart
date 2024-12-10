@@ -1,7 +1,7 @@
 
 import 'package:cloud_app/User/bloc/bloc_user.dart';
 import 'package:flutter/material.dart';
-import 'package:cloud_app/Widgets/circle_button.dart';
+import 'package:cloud_app/Widgets/CircleButton.dart';
 import 'package:generic_bloc_provider/generic_bloc_provider.dart';
 
 class ButtonsBar extends StatelessWidget {

@@ -2,7 +2,7 @@ import 'package:cloud_app/User/bloc/bloc_user.dart';
 import 'package:cloud_app/User/model/user.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_app/Widgets/gradient_back.dart';
-import 'package:cloud_app/Widgets/button_blue.dart';
+import 'package:cloud_app/Widgets/ButtonBlue.dart';
 import 'package:flutter_signin_button/flutter_signin_button.dart';
 import 'package:cloud_app/User/bloc/bloc_user.dart';
 import 'package:generic_bloc_provider/generic_bloc_provider.dart';

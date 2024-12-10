@@ -1,6 +1,6 @@
-import 'package:cloud_app/User/ui/screens/profile_header.dart';
-import 'package:cloud_app/User/ui/widgets/profile_background.dart';
-import 'package:cloud_app/User/ui/widgets/profile_exercise_list.dart';
+import 'package:cloud_app/User/ui/screens/ProfileHeader.dart';
+import 'package:cloud_app/User/ui/widgets/ProfileBackground.dart';
+import 'package:cloud_app/User/ui/widgets/ProfileExerciseList.dart';
 import 'package:flutter/material.dart';
 
 

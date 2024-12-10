@@ -1,5 +1,5 @@
 import 'package:cloud_app/Gym/model/exercise.dart';
-import 'package:cloud_app/User/ui/widgets/profile_exercise_info.dart';
+import 'package:cloud_app/User/ui/widgets/ProfileExerciseInfo.dart';
 import 'package:flutter/material.dart';
 
 

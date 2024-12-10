@@ -2,7 +2,7 @@ import 'package:cloud_app/User/bloc/bloc_user.dart';
 import 'package:cloud_app/User/model/user.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_app/User/ui/widgets/user_info.dart';
-import 'package:cloud_app/User/ui/widgets/button_bar.dart';
+import 'package:cloud_app/User/ui/widgets/ButtonsBar.dart';
 import 'package:generic_bloc_provider/generic_bloc_provider.dart';
 
 class ProfileHeader extends StatelessWidget {
