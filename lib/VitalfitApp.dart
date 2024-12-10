@@ -1,4 +1,4 @@
-import 'package:cloud_app/Gym/ui/screens/home_exercises.dart';
+import 'package:cloud_app/Gym/ui/screens/HomeExercise.dart';
 import 'package:cloud_app/Gym/ui/screens/search_exercise.dart';
 import 'package:cloud_app/User/bloc/bloc_user.dart';
 import 'package:flutter/material.dart';
