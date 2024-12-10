@@ -7,7 +7,7 @@ import 'package:flutter_signin_button/flutter_signin_button.dart';
 import 'package:cloud_app/User/bloc/bloc_user.dart';
 import 'package:generic_bloc_provider/generic_bloc_provider.dart';
 import 'package:firebase_auth/firebase_auth.dart' as auth;
-import 'package:cloud_app/bicho_app.dart';
+import 'package:cloud_app/VitalfitApp.dart';
 
 class SignInScreen extends StatefulWidget {
 
@@ -34,7 +34,7 @@ class _SignInScreen extends State<SignInScreen> {
         if(!snapshot.hasData || snapshot.hasError) {
           return signInGoogleUI();
         } else {
-          return BichoApp();
+          return VitalfitApp();
         }
       },
     );

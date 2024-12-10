@@ -16,19 +16,19 @@ class VitalfitApp extends StatelessWidget {
         tabBar: CupertinoTabBar(
             items: [
               BottomNavigationBarItem(
-                  icon: Icon(Icons.home, color: Colors.indigo),
+                  icon: Icon(Icons.home, color: Colors.amber),
                   title: Text("")
               ),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.search, color: Colors.indigo),
+                  icon: Icon(Icons.search, color: Colors.amber),
                   title: Text("")
               ),
               BottomNavigationBarItem(
-                  icon:Icon(Icons.shopping_bag_outlined, color: Colors.indigo),
+                  icon:Icon(Icons.shopping_bag_outlined, color: Colors.amber),
                   title: Text("")
               ),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.person, color: Colors.indigo),
+                  icon: Icon(Icons.person, color: Colors.amber),
                   title: Text("")
               ),
             ]

@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 
 
 class HomeExercise extends StatelessWidget {
-  String descriptionDummy = "BichoApp es una aplicación enfocada en promover el"
+  String descriptionDummy = "VitalFit es una aplicación enfocada en promover el"
       " estilo de vida saludable a través de rutinas de entrenamiento ideales según "
       "tus caracteristicas físicas y las metas que desees lograr, este proyecto nace"
       " con la intención de que cualquier persona pueda llevar un estilo de vida"
@@ -17,7 +17,7 @@ class HomeExercise extends StatelessWidget {
       children: <Widget>[
         ListView(
           children: <Widget>[
-            DescriptionExercise("BichoApp", 4, descriptionDummy),
+            DescriptionExercise("VitalFit", 4, descriptionDummy),
             ReviewList()
 
           ],
